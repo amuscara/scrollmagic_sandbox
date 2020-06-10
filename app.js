@@ -9,7 +9,7 @@ const end = document.querySelector('h1');
 let controller = new ScrollMagic.Controller();
 //scenes
 let scene = new ScrollMagic.Scene({
-    duration: 4000,
+    duration: 8000,
     triggerElement: intro,
     triggerHook: 0
 })
@@ -21,7 +21,7 @@ let scene = new ScrollMagic.Scene({
 const textAnim = TweenMax.fromTo(text, 1, {opacity: 1}, {opacity: 0});
 
 let scene2 = new ScrollMagic.Scene({
-    duration: 1000,
+    duration: 2000,
     triggerElement: intro,
     triggerHook: 0
 })
