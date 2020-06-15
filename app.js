@@ -60,7 +60,7 @@ const text2 = ourPartners.querySelector('h1');
 // let dbacksController = new ScrollMagic.Controller();
 //scenes
 let dbacksScene = new ScrollMagic.Scene({
-    duration: 3500,
+    duration: 4500,
     triggerElement: ourPartners,
     triggerHook: 0
 })
